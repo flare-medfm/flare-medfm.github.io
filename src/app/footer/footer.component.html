@@ -6,7 +6,10 @@
 		}} copyright-desc mb-0 h6"
 		data-wow-delay="0.05s"
 	>
-		Designed with <i class="{{ footerData['citation']['icon'] }}"></i> By
-		{{ footerData["citation"]["name"] }}
+		Thanks to&nbsp;
+		<i class="{{ footerData['citation']['icon'] }}"></i>&nbsp;
+		<a href="{{ footerData['citation']['link'] }}">{{
+			footerData["citation"]["template"]
+		}}</a>
 	</h2>
 </footer>

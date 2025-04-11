@@ -112,6 +112,10 @@ Contributions, Issues and Feature requests are Welcome!
 
 Feel free to check the [Issues page](https://github.com/flare-medfm/flare-medfm.github.io/issues/).
 
+## ❤️ Thanks to
+
+This project is based on and modified from [Jayant Goel's Portfolio Template](https://github.com/jayantgoel001/jayantgoel001.github.io).
+
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
