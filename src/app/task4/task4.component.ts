@@ -37,17 +37,4 @@ export class Task4Component implements OnInit, AfterViewInit {
 			);
 		}
 	}
-
-	@HostListener('window:resize', ['$event'])
-	onWindowResize() {
-		this.updateSelector('story');
-	}
-
-	public updateSelector(tab: string) {
-		if (!this.selector) {
-			this.selector = document.getElementById('selector');
-		}
-		this.selector.style.width = `${this.activeElements[tab].offsetWidth}px`;
-		this.selector.style.left = `${this.activeElements[tab].offsetLeft}px`;
-	}
 }
