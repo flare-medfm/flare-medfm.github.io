@@ -1,0 +1,61 @@
+<section class="section" id="task3">
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="wow fadeIn text-center pb-2">
+				<div class="row justify-content-center mb-2">
+					<i class="fas fa-trophy h3 text-muted"></i>
+					<h2 class="ml-2 h3 font-weight-bold">
+						{{ taskData["name"] }}
+					</h2>
+				</div>
+				<p class="text-muted mx-auto para-desc h3 task-title">
+					{{ taskData["title"] }}
+				</p>
+			</div>
+		</div>
+		<div class="task-section">
+			<div class="task-img">
+				<img
+					src="assets/images/{{ taskData['image'] }}"
+					alt="{{ taskData['name'] }}"
+					class="img-fluid"
+				/>
+			</div>
+			<div class="timeline">
+				<div
+					*ngFor="let k of taskData['keywords']"
+					class="wow timeline-box bounceIn{{ k['animationClass'] }}"
+					data-wow-delay="0s"
+				>
+					<div class="timeline-container">
+						<h3
+							class="keyword-designation text-{{
+								k['textAlignment']
+							}}"
+						>
+							{{ k["text"] }}
+						</h3>
+					</div>
+				</div>
+				<div id="timeline-divider">
+					<div class="timeline-traveller">
+						<i class="fas fa-plane font-size-25"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="resume-button" placement="bottom">
+				<a
+					[href]="taskData['link']"
+					rel="noreferrer"
+					aria-label="Link to Task (opens in a new tab)"
+					target="_blank"
+				>
+					Link to Task
+					<i class="fas fa-arrow-up-right-from-square ml-2"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

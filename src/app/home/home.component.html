@@ -1,0 +1,39 @@
+<section class="bg-home" id="home">
+	<div class="bg-overlay"></div>
+	<div class="home-center">
+		<div class="home-desc-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 mt-5">
+						<div class="home-title text-center">
+							<div
+								class="wow fadeInDownBig text-white-50 mb-3 font-weight-normal h5"
+								data-wow-delay="0.5s"
+							></div>
+							<h2 class="display-3">
+								<div id="typed-strings">
+									<p
+										*ngFor="
+											let typedElement of homeData[
+												'typedElement'
+											]
+										"
+									>
+										{{ typedElement }}
+									</p>
+								</div>
+								<span id="element" class="text-white"></span>
+							</h2>
+							<h3
+								class="wow fadeInUpBig text-light mx-auto h3"
+								data-wow-delay="0.5s"
+							>
+								{{ homeData["introduction"] }}
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

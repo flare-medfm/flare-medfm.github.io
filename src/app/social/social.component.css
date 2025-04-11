@@ -1,0 +1,49 @@
+.social-container {
+	background: #242a35;
+}
+.list-inline {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline-item {
+	display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+	margin-right: 0.5rem;
+}
+.social-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 45px;
+	background-color: #f1f1f1;
+	height: 45px;
+	box-shadow: 5px 5px 16px rgba(163, 177, 198, 0.6),
+		-5px -5px 16px rgba(255, 255, 255, 0.5);
+	margin: 0.5em;
+}
+.social-buttons:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	transform: scale(1.1);
+}
+.twitter:hover {
+	background: #1da1f2;
+}
+.github:hover {
+	background: #000;
+}
+.linkedin:hover {
+	background: #0e76a8;
+}
+.google-scholar:hover {
+	background: #405de6;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+	.social-buttons {
+		margin: 0.08em;
+	}
+}
