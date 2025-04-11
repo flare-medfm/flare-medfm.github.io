@@ -22,6 +22,16 @@
 	color: inherit;
 }
 
+#clustrmaps {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 120px;
+	height: 120px;
+	z-index: 1000;
+	background-color: #f1f1f1;
+}
+
 .copyright-desc {
 	background-color: #242a35;
 	color: #fff;
@@ -31,6 +41,7 @@
 	font-weight: normal;
 	font-size: 17px;
 }
+
 @keyframes pulse {
 	0% {
 		transform: scale(1);
