@@ -10,7 +10,7 @@ declare var data: any;
 })
 export class AppComponent implements AfterViewInit, OnInit {
 	public identityData = identity;
-	public linkData = data['Links'];
+	public socialData = data['social'];
 
 	constructor(private swUpdate: SwUpdate) {}
 	ngOnInit() {
@@ -34,7 +34,6 @@ export class AppComponent implements AfterViewInit, OnInit {
 			`%c${this.identityData['name']}`,
 			'color:#F56540; font-size:27px'
 		);
-		console.log(`%c${this.linkData.GitHub.link}`, 'font-size:17px');
 	}
 
 	ngAfterViewInit(): void {
