@@ -550,6 +550,7 @@ h6 {
 .fade:not(.show) {
 	opacity: 0;
 }
+
 @media (min-width: 200px) and (max-width: 768px) {
 	.txt-bg::before {
 		font-size: 50px;
