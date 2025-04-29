@@ -13,7 +13,7 @@ declare var data: any;
 	selector: 'app-home',
 	templateUrl: './home.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./home.component.css'],
+	styleUrls: ['./home.component.css', '../shared/task-styles.css'],
 })
 export class HomeComponent implements OnInit, AfterViewInit {
 	public homeData = data['Home'];
