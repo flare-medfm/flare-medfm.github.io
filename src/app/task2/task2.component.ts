@@ -13,7 +13,7 @@ declare var data: any;
 	selector: 'app-task2',
 	templateUrl: './task2.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./task2.component.css'],
+	styleUrls: ['../shared/task-styles.css'],
 })
 export class Task2Component implements OnInit, AfterViewInit {
 	public taskData = data['Task2'];

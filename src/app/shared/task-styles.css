@@ -89,6 +89,13 @@ small {
 	color: #242a35;
 }
 
+.text-select {
+	-moz-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
 .resume-button {
 	position: relative;
 	width: 300px;
