@@ -83,13 +83,13 @@
 				>
 					<ng-template #title
 						><strong>
-							<em>{{ navLink.name }}</em>
+							<em>{{ navLink.tip }}</em>
 						</strong></ng-template
 					><a
 						href="/"
 						(click)="updateActiveLink(navLink.id)"
 						(scroll)="onWindowScroll()"
-						[attr.aria-label]="[navLink]"
+						[attr.aria-label]="[navLink['name']]"
 						placement="bottom"
 						[ngbTooltip]="title"
 						>{{ navLink.name }}</a
