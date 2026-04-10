@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(curl -s -L 'https://www.codabench.org/competitions/7149/')",
+      "Bash(curl -s -L 'https://www.codabench.org/competitions/15553/')",
+      "Bash(curl -s -L 'https://www.codabench.org/competitions/7151/')",
+      "Bash(curl -s 'https://www.codabench.org/api/competitions/7149/')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s 'https://www.codabench.org/api/competitions/15553/')",
+      "Bash(curl -s 'https://www.codabench.org/api/competitions/7151/')",
+      "Bash(openspec new:*)",
+      "Bash(openspec status:*)",
+      "Bash(openspec instructions:*)",
+      "WebFetch(domain:www.codabench.org)",
+      "Bash(curl:*)",
+      "Bash(npm run:*)",
+      "Bash(npm start:*)"
+    ]
+  }
+}

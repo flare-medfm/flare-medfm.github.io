@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"Flare2025": {
+		"Flare2026": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:application": {
@@ -90,10 +90,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "Flare2025:build:production"
+							"buildTarget": "Flare2026:build:production"
 						},
 						"development": {
-							"buildTarget": "Flare2025:build:development"
+							"buildTarget": "Flare2026:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -101,7 +101,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"buildTarget": "Flare2025:build"
+						"buildTarget": "Flare2026:build"
 					}
 				},
 				"test": {

@@ -18,7 +18,7 @@
 <div align="center">
 	<a href="https://github.com/flare-medfm/flare-medfm.github.io">
 	</a>
-	<h3 align="center">Flare 2025</h3>
+	<h3 align="center">Flare 2026</h3>
 </div>
 
 <br/>
@@ -119,4 +119,4 @@ This project is based on and modified from [Jayant Goel's Portfolio Template](ht
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
-Copyright &copy; 2025 Flare. All rights reserved.
+Copyright &copy; 2026 Flare. All rights reserved.
